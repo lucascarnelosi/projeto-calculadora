@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+    .container {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .container .calculator div {
+        gap: 15px;
+    }
+
+    .container .calculator div span {
+        padding: 20px;
+        font-size: 1.7rem;
+    }
+
+    .container .calculator div .zero {
+        flex: 4;
+        border-radius: 40px;
+        padding-left: 30px;
+    }
+}

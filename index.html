@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="result">
+            <span class="result-number">0</span>
+        </div>
+
+        <div class="calculator">
+            <div>
+                <span id="reset" class="key light-gray">AC</span>
+                <span class="light-gray more-less">+/-</span>
+                <span class="light-gray op">%</span>
+                <span class="operators op">/</span>
+            </div>
+            <div>
+                <span class="numbers number">7</span>
+                <span class="numbers number">8</span>
+                <span class="numbers number">9</span>
+                <span class="operators op">*</span>
+            </div>
+            <div>
+                <span class="numbers number">4</span>
+                <span class="numbers number">5</span>
+                <span class="numbers number">6</span>
+                <span class="operators op">-</span>
+            </div>
+            <div>
+                <span class="numbers number">1</span>
+                <span class="numbers number">2</span>
+                <span class="numbers number">3</span>
+                <span class="operators op">+</span>
+            </div>
+            <div>
+                <span class="numbers number last-line zero">0</span>
+                <span id="dot" class="numbers last-line">.</span>
+                <span id="equal-sign" class="operators last-line">=</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
