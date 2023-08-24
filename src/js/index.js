@@ -12,7 +12,7 @@ function adicionarDigito(digit) {
         if (result.innerHTML.includes('..')) {
             result.innerHTML = 0
         }
-    } else if (result.innerHTML == 0) {
+    } else if (result.innerHTML == '0') {
         result.innerHTML = digit
     } else {
         result.innerHTML += digit
